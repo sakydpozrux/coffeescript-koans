@@ -75,15 +75,18 @@ describe 'About Applying What We Have Learnt', ->
     expect(sum).toBe(4613732)
 
 
-###
 # UNCOMMENT FOR EXTRA CREDIT
   it 'should find the largest prime factor of a composite number', ->
+    expect(FILL_ME_IN).toBe(FILL_ME_IN)
 
   it 'should find the largest palindrome made from the product of two 3 digit numbers', ->
+    expect(FILL_ME_IN).toBe(FILL_ME_IN)
 
   it 'should what is the smallest number divisible by each of the numbers 1 to 20', ->
+    expect(FILL_ME_IN).toBe(FILL_ME_IN)
 
   it 'should what is the difference between the sum of the squares and the square of the sums', ->
+    expect(FILL_ME_IN).toBe(FILL_ME_IN)
 
   it 'should find the 10001st prime', ->
-###
+    expect(FILL_ME_IN).toBe(FILL_ME_IN)
