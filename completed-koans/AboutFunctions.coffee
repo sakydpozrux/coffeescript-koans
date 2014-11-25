@@ -11,14 +11,14 @@ describe 'About Functions', ->
 
   # Again, don't forget this test is pending ('xit')
   # in order to enable this test remove the leading 'x'
-  xit 'should know internal variables override outer variables', ->
+  it 'should know internal variables override outer variables', ->
     message = 'Outer'
     getMessage = -> message
     overrideMessage = -> message = 'Inner'
 
-    getMessage().should.equal FILL_ME_IN
-    overrideMessage().should.equal FILL_ME_IN
-    message.should.equal FILL_ME_IN # Side effect
+    getMessage().should.equal 'Outer'
+    overrideMessage().should.equal 'Inner'
+    message.should.equal 'Inner' # Side effect
 
   it 'should have lexical scoping', ->
     variable = 'top-level'
